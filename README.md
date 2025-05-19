@@ -1,29 +1,62 @@
-# 📚 Uni-Aufgaben Mix – Mathe & C++ 🧠💻
+# 📚 Uni-Aufgaben Mix – Mathe & C++
 
-Dieses Repository enthält eine Sammlung einzelner Aufgaben, die ich im Rahmen meines Mathematik- und Informatikstudiums (oder einfach aus Interesse) programmiert habe.  
-Jede Datei ist in sich abgeschlossen und behandelt ein kleines mathematisch-algorithmisches Problem.
+In diesem Repository findest du eine Sammlung kleiner, mathematisch-algorithmischer Programme, die ich im Rahmen meines Studiums (oder einfach aus Neugier) in C++ geschrieben habe.  
+Jedes Programm behandelt ein spezifisches Thema – von Geometrie über Zahlenfolgen bis zu Primzahlen.
 
 ---
 
-## 🔍 Übersicht der Programme
+## 🧮 Volumen eines Quaders (`VolumenQuader.cpp`)
 
-| Datei | Beschreibung |
-|-------|--------------|
-| `VolumenQuader.cpp` | Fragt Höhe, Breite und Länge ab und berechnet das Volumen eines Quaders |![grafik](https://github.com/user-attachments/assets/ee6ce013-1964-4909-aea7-e612f91b277d)|
+Ein einfaches Tool, das den Nutzer nach **Länge**, **Breite** und **Höhe** fragt und daraus das **Volumen** eines Quaders berechnet.  
+Nützlich zum Einstieg in Benutzerinteraktion und einfache Berechnungen.
 
-| `collatz_short.cpp` | Findet die Startzahl zwischen 1 und 1.000.000 mit der längsten Collatz-Folge und bestimmt, ab wann `short` bzw. `int` nicht mehr ausreicht für Collatz-Folgen |![grafik](https://github.com/user-attachments/assets/a746d488-b871-4b2e-98b0-a518145b76df)|
-
-| `primesplit.cpp` | Zerlegt eine vom Nutzer eingegebene Zahl in ihre Primfaktoren |![grafik](https://github.com/user-attachments/assets/daa53f5b-1fa6-4d55-b815-04342cef31c1) |
-
-| `primetwins.cpp` | Zählt und zeigt alle Primzahlzwillinge bis zu einer eingegebenen Obergrenze |![grafik](https://github.com/user-attachments/assets/c161ec4e-9935-4be0-9880-3dd1e0727e9e)|
+![grafik](https://github.com/user-attachments/assets/9a08d484-741c-4a26-9f06-ace00403222c)
 
 
 ---
 
-## ⚙️ Sprachen & Tools
+## 🔁 Collatz-Analyse (`collatz_short.cpp`)
 
-- **C++** – Konsolenanwendungen
-- Kompatibel mit g++, CLion, VSCode, Dev-C++, etc.
+Dieses Programm vereint gleich zwei interessante Aspekte der **Collatz-Folge**:
+
+- **Längste Folge von 1 bis 1.000.000:**  
+  Es wird geprüft, welche Zahl in diesem Bereich die längste Collatz-Sequenz erzeugt.
+  
+- **Datentyp-Grenzen:**  
+  Es wird ermittelt, **bei welcher Startzahl die Längenangabe nicht mehr in einen `short` oder `int` passt**.
+
+Ideal zum Üben von **Rekursion**, **Zählvariablen**, und **Datentypgrenzen** in C++.
+
+![grafik](https://github.com/user-attachments/assets/3c6ae843-f866-47c3-bdc9-49b50af63e85)
+
+
+---
+
+## 🔍 Primfaktorzerlegung (`primesplit.cpp`)
+
+Hier gibst du eine beliebige Zahl ein, und das Programm **zerlegt sie in ihre Primfaktoren**.  
+Ein Klassiker der Zahlentheorie – ideal für Schleifen, Bedingungen und Teilbarkeitsprüfung.
+
+![grafik](https://github.com/user-attachments/assets/d1d3079f-906e-4f9a-bc16-65f1e8348965)
+
+
+---
+
+## 🧪 Primzahlzwillinge (`primetwins.cpp`)
+
+Dieses Programm findet und zählt alle **Primzahlzwillinge** (zwei Primzahlen mit Abstand 2) bis zu einer selbst gewählten Obergrenze.  
+Beispiele: 3 & 5, 5 & 7, 11 & 13...
+
+![grafik](https://github.com/user-attachments/assets/9c759f53-9c38-4576-a1e7-12f7c9ef2efb)
+
+
+---
+
+## ⚙️ Tools & Technik
+
+- Alle Programme in **C++**
+- Kompilierbar mit: `g++`, CLion, VSCode etc.
+- Konsolenanwendungen mit klarer Nutzerführung
 
 ---
 
@@ -40,5 +73,7 @@ Jede Datei ist in sich abgeschlossen und behandelt ein kleines mathematisch-algo
 
 **Aaron Reitz**  
 🔗 [GitHub-Profil](https://github.com/Aaronreitz)
+
+---
 
 ---
